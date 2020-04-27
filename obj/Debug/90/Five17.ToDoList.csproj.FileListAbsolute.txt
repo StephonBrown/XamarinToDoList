@@ -7,7 +7,6 @@ C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\bin\Debug\com.compan
 C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\build.props
 C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\adb.props
-C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\Five17.ToDoList.csprojAssemblyReference.cache
 C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
 C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\res.flag
@@ -261,3 +260,5 @@ C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\stamp\_
 C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\res\layout\finddeck.xml
+C:\Users\Steph\source\repos\Five17.ToDoList\Five17.ToDoList\obj\Debug\90\android\src\crc6487d37bb822cc4fcf\ToDoList.java

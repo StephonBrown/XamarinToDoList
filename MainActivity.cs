@@ -1,10 +1,12 @@
 ﻿using System;
 using Android.App;
+using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
+using Android.Text;
 using Android.Views;
 using Android.Widget;
 using Xamarin.Essentials;
@@ -14,6 +16,7 @@ namespace Five17.ToDoList
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        TextView tx1;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -37,8 +40,15 @@ namespace Five17.ToDoList
             View view = (View)sender;
             string email = FindViewById<AppCompatEditText>(Resource.Id.emailAddress).Text;
             string pass = FindViewById<AppCompatEditText>(Resource.Id.password).Text;
-            Snackbar.Make(view, email + " " + pass, Snackbar.LengthLong)
-                .SetAction("Action", (Android.Views.View.IOnClickListener)null).Show();
+            if(email == "" && pass == "")
+            {
+               Toast.MakeText(Application.Context, "Redirecting", ToastLength.Short).Show();
+               StartActivity(typeof(ToDoList));
+            }
+            else
+            {
+                Toast.MakeText(Application.Context, "Wrong Password", ToastLength.Short).Show();
+            }
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
